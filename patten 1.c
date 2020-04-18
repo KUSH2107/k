@@ -1,6 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
-main()
+int main()
 {
     int i,j,n;
         clrscr();
@@ -14,5 +13,5 @@ main()
             }
             printf("\n");
         }
-        getch();
+        return 0;
 }
